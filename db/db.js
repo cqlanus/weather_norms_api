@@ -37,7 +37,7 @@ const operatorsAliases = {
     $col: Op.col
 };
 const db = new Sequelize(
-    process.env.DATABASE_URL || 'postgres://localhost:5432/test_db', {
+    process.env.DATABASE_URL || 'postgres://localhost:5432/weather_norms', {
         logging: false,
         operatorsAliases
     }

@@ -1,9 +1,12 @@
-const User = require('./user');
-
+const MaxTemp = require('./tempMax');
+const MinTemp = require('./tempMin');
+const Station = require('./stations');
 
 /* User Relationships */
 
 
 module.exports = {
-  User
+  MaxTemp,
+  MinTemp,
+  Station
 };
